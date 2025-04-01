@@ -1,1 +1,1 @@
-# campus-event-finder
+# Campus Event Finder
