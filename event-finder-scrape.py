@@ -17,6 +17,6 @@ for event in events:
     location = event.find('div', class_='event-location').text.strip()
     
     print("Title:", (title))
-    print("Date:" (date))
-    print("Location:" (location))
+    print("Date:", (date))
+    print("Location:", (location))
     print("---")
