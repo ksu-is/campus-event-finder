@@ -1,8 +1,3 @@
 # Campus Event Finder
-This is a test. Testing:
 
-1
-
-2
-
-3
+I created a scraping file to grab all needed information onto a file.
