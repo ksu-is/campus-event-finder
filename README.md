@@ -1,3 +1,5 @@
 # Campus Event Finder
 
-I created a scraping file to grab all needed information onto a file.
+1: Created a scraping file specifically for campus events.
+
+2: Created another scraping file, but this time for sporting events.
