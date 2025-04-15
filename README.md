@@ -1,5 +1,3 @@
 # Campus Event Finder
 
-1: Created a scraping file specifically for campus events.
-
-2: Created another scraping file, but this time for sporting events.
+The purpose of this project is to have all of Kennesaw State Univeristy's events in one place. Instead of having to go to OwlLife and the sports website separately, they'll be here in one.
