@@ -1,20 +1,20 @@
+# import BeautifulSoup and requests
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
-import requests
+import time
 
-url = 'https://owllife.kennesaw.edu/events'
+url = "https://owllife.kennesaw.edu/events"
+driver = webdriver.Chrome()
+driver.get(url)
 
-page = requests.get(url)
-soup = BeautifulSoup(page.text, 'html.parser')
-events = soup.find_all('div', class_='event-card')
+time.sleep(60)
 
-event_list = []
-for event in events:
-    title = event.find('h3').text.strip()
-    date = event.find('div style', class_='event-date').text.strip()
-    location = event.find('div', class_='event-location').text.strip()
+soup = BeautifulSoup(driver.page_source, "html.parser")
 
-    print("Title:", (title))
-    print("Date:" (date))
-    print("Location:" (location))
-    print("---")
+# Find all the event elements (headings, dates and times, and locations)
 
+headings = [h3.text.strip() for h3 in soup.find_all("h3")]
+print(headings)
+
+driver.close()
