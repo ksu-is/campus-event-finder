@@ -25,8 +25,8 @@ soup = BeautifulSoup(html, 'html.parser')
 h3_style_str = 'font-size: 1.06rem; font-weight: 600; overflow: visible; margin: 0.125rem 0px 0.313rem; line-height: 1.313rem; display: -webkit-box; max-width: 400px; -webkit-line-clamp: 2; -webkit-box-orient: vertical; text-overflow: initial;'
 h3s = soup.find_all('h3', attrs={'style': h3_style_str})
  
-target_divs = soup.find_all('div', attrs={'style': 'margin: 0px 0px 0.125rem;'})
- 
+div_style_str = 'margin: 0px 0px 0.125rem;'
+target_divs = soup.find_all('div', attrs={'style': div_style_str}) 
  
 for i, target in enumerate(target_divs, start=1):
     print()
@@ -56,3 +56,6 @@ for i, target in enumerate(target_divs, start=1):
         sibling_text = sibling.get_text(strip=True)
         print("Location:", sibling_text)
         print()
+
+# Close the driver
+driver.quit()
