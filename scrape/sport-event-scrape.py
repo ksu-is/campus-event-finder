@@ -1,22 +1,33 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
-import requests
+import time
 
-url = "https://ksuowls.com/calendar?date=4/17/2025&vtype=list"
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')  # Run in background
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-page = requests.get(url)
-soup = BeautifulSoup(page.text, "html.parser")
+# Load the page
+driver.get("https://ksuowls.com/calendar?date=4/24/2025&vtype=list")
+
+time.sleep(5)
+
+
+html = driver.page_source
+soup = BeautifulSoup(html, "html.parser")
 
 # Each game is usually within a div or list item; inspect the site for accuracy
-games = soup.find_all("li", class_="sidearm-calendar-schedule-event")
 
-for game in games:
-    game_date = game.find("h4", class_="text-uppercase")
-    game_time = game.find("span", class_="sidearm-calendar-schedule-event-time")
-    game_location = game.find("span", class_="text-uppercase sidearm-calendar-schedule-event-meta-value")
-    game_opponent = game.find("span", class_="sidearm-calendar-schedule-event-opponent-title")
+span_str = "text: sport.title"
+span_tags = soup.find_all("span", attrs={"data-bind": span_str})
 
-    print("Date:", game_date.get_text(strip=True) if game_date else "N/A")
-    print("Time:", game_time.get_text(strip=True) if game_time else "N/A")
-    print("Location:", game_location.get_text(strip=True) if game_location else "N/A")
-    print("Opponent:", game_opponent.get_text(strip=True) if game_opponent else "N/A")
-    print("-" * 40)
+h4_style_str = "formatDate: date, format: 'dddd, MMMM Do, YYYY'"
+h4s = soup.find_all("h4", attrs={"data-bind": h4_style_str})
+
+date_text = soup.find_all('h4', {'data-bind': "formatDate: date, format: 'dddd, MMMM Do, YYYY'"}).text
+
+span_str_time = "text: time"
+span_tags_time = soup.find_all("span", attrs={"data-bind": span_str_time})
+
+print(span_tags)
