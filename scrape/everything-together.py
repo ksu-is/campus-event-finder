@@ -13,7 +13,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 
 def scrape_ksu_athletics():
-    url = "https://ksuowls.com/calendar?date=4/24/2025&vtype=list"
+    url = "https://ksuowls.com/calendar?date=5/03/2025&vtype=list"
     driver.get(url)
     time.sleep(5)
     html = driver.page_source
@@ -75,7 +75,7 @@ def scrape_ksu_calendar():
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     titles = soup.find_all('h3', class_='em-card_title')
-    descriptions = soup.find_all('p', class_='em-card_event-text')
+    descriptions = soup.find_all('p'[0], class_='em-card_event-text')
 
     data = []
     for i, title in enumerate(titles):
