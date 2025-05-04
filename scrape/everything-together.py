@@ -32,9 +32,7 @@ def scrape_ksu_athletics():
             "Source": "KSU Athletics",
             "Event": span.get_text(strip=True),
             "Date": h4s[i].get_text(strip=True) if i < len(h4s) else "N/A",
-            "Time": times[i].get_text(strip=True) if i < len(times) else "N/A",
             "Location": locations[i].get_text(strip=True) if i < len(locations) else "N/A",
-            "AT/VS": at_vs[i].get_text(strip=True) if i < len(at_vs) else "N/A",
             "Opponent": opponents[i].get_text(strip=True) if i < len(opponents) else "N/A"
         })
     return data
@@ -105,5 +103,6 @@ with open("ksu_combined_events.csv", "w", newline="", encoding="utf-8") as f:
     writer.writeheader()
     writer.writerows(all_data)
 
+# Export to JSON
 with open("ksu_combined_events.json", "w", encoding="utf-8") as f:
     json.dump(all_data, f, indent=2)
