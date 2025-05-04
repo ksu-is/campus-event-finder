@@ -49,9 +49,7 @@ def scrape_ksu_athletics():
 
     span_tags = soup.find_all("span", attrs={"data-bind": "text: sport.title"})
     h4s = soup.find_all("h4", attrs={"data-bind": "formatDate: date, format: 'dddd, MMMM Do, YYYY'"})
-    times = soup.find_all("span", attrs={"data-bind": "text: time"})
     locations = soup.find_all("span", attrs={"data-bind": "text: location"})
-    at_vs = soup.find_all("span", attrs={"data-bind": "text: at_vs"})
     opponents = soup.find_all("span", attrs={"data-bind": "text: opponent.title"})
 
     data = []
@@ -73,14 +71,17 @@ def scrape_ksu_calendar():
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     titles = soup.find_all('h3', class_='em-card_title')
-    descriptions = soup.find_all('p'[0], class_='em-card_event-text')
+    times = soup.find_all('p'[0], class_='em-card_event-text')
+    location = soup.find_all('p', class_='em-card_event-text')
+
 
     data = []
     for i, title in enumerate(titles):
         data.append({
             "Source": "KSU Calendar",
             "Event": title.get_text(strip=True),
-            "Date": descriptions[i].get_text(strip=True) if i < len(descriptions) else "N/A"
+            "Date": times[i].get_text(strip=True) if i < len(times) else "N/A",
+            "Location": location[i].get_text(strip=True) if i < len(location) else "N/A"
         })
     return data
 
