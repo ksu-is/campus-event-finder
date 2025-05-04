@@ -246,106 +246,127 @@
   {
     "Source": "KSU Calendar",
     "Event": "Annet Couwenberg: Sewing Circles",
-    "Date": "Sun, May 4, 2025"
+    "Date": "Sun, May 4, 2025",
+    "Location": "Sun, May 4, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Beth LaCour: Mountains and Valleys",
-    "Date": "Zuckerman Museum of Art"
+    "Date": "Zuckerman Museum of Art",
+    "Location": "Zuckerman Museum of Art"
   },
   {
     "Source": "KSU Calendar",
     "Event": "FINALS - FULL (15 week) TERM",
-    "Date": "Sun, May 4, 2025"
+    "Date": "Sun, May 4, 2025",
+    "Location": "Sun, May 4, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Active Owls Weekend",
-    "Date": "Zuckerman Museum of Art"
+    "Date": "Zuckerman Museum of Art",
+    "Location": "Zuckerman Museum of Art"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Annet Couwenberg: Sewing Circles",
-    "Date": "Sun, May 4, 2025"
+    "Date": "Sun, May 4, 2025",
+    "Location": "Sun, May 4, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Beth LaCour: Mountains and Valleys",
-    "Date": "Sun, May 4, 2025 12pm to 8pm"
+    "Date": "Sun, May 4, 2025 12pm to 8pm",
+    "Location": "Sun, May 4, 2025 12pm to 8pm"
   },
   {
     "Source": "KSU Calendar",
     "Event": "COMMENCEMENT",
-    "Date": "Siegel Student Recreation & Activities Center"
+    "Date": "Siegel Student Recreation & Activities Center",
+    "Location": "Siegel Student Recreation & Activities Center"
   },
   {
     "Source": "KSU Calendar",
     "Event": "FINALS - FULL (15 week) TERM",
-    "Date": "Mon, May 5, 2025"
+    "Date": "Mon, May 5, 2025",
+    "Location": "Mon, May 5, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Fall 2024 Windgate Artist-in-Residence: Matthew Kirk",
-    "Date": "Zuckerman Museum of Art"
+    "Date": "Zuckerman Museum of Art",
+    "Location": "Zuckerman Museum of Art"
   },
   {
     "Source": "KSU Calendar",
     "Event": "40-Hour General Civil Mediation Training & Practicum",
-    "Date": "Mon, May 5, 2025"
+    "Date": "Mon, May 5, 2025",
+    "Location": "Mon, May 5, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Online 40-Hour General Civil Mediation Training & Practicum",
-    "Date": "Zuckerman Museum of Art"
+    "Date": "Zuckerman Museum of Art",
+    "Location": "Zuckerman Museum of Art"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Timesaving Strategies: Dr. Morton Ann Gernsbacher",
-    "Date": "Mon, May 5, 2025"
+    "Date": "Mon, May 5, 2025",
+    "Location": "Mon, May 5, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "5th Annual Owl Film Festival",
-    "Date": "Mon, May 5, 2025"
+    "Date": "Mon, May 5, 2025",
+    "Location": "Mon, May 5, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Annet Couwenberg: Sewing Circles",
-    "Date": "Mon, May 5, 2025"
+    "Date": "Mon, May 5, 2025",
+    "Location": "Mon, May 5, 2025"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Beth LaCour: Mountains and Valleys",
-    "Date": "Zuckerman Museum of Art"
+    "Date": "Zuckerman Museum of Art",
+    "Location": "Zuckerman Museum of Art"
   },
   {
     "Source": "KSU Calendar",
     "Event": "COMMENCEMENT",
-    "Date": "Mon, May 5, 2025 7am to 6pm"
+    "Date": "Mon, May 5, 2025 7am to 6pm",
+    "Location": "Mon, May 5, 2025 7am to 6pm"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Fall 2024 Windgate Artist-in-Residence: Matthew Kirk",
-    "Date": "Center for Conflict Management -School of Conflict Management, 117"
+    "Date": "Center for Conflict Management -School of Conflict Management, 117",
+    "Location": "Center for Conflict Management -School of Conflict Management, 117"
   },
   {
     "Source": "KSU Calendar",
     "Event": "40-Hour General Civil Mediation Training & Practicum",
-    "Date": "Mon, May 5, 2025 7am to 6pm"
+    "Date": "Mon, May 5, 2025 7am to 6pm",
+    "Location": "Mon, May 5, 2025 7am to 6pm"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Online 40-Hour General Civil Mediation Training & Practicum",
-    "Date": "Virtual Event"
+    "Date": "Virtual Event",
+    "Location": "Virtual Event"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Master of Science in Healthcare Management and Informatics Information Session",
-    "Date": "Mon, May 5, 2025 10:30am to 12pm"
+    "Date": "Mon, May 5, 2025 10:30am to 12pm",
+    "Location": "Mon, May 5, 2025 10:30am to 12pm"
   },
   {
     "Source": "KSU Calendar",
     "Event": "Annet Couwenberg: Sewing Circles",
-    "Date": "Academic Learning Center, Room 1200"
+    "Date": "Academic Learning Center, Room 1200",
+    "Location": "Academic Learning Center, Room 1200"
   }
 ]
