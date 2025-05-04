@@ -13,7 +13,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 
 def scrape_ksu_athletics():
-    url = "https://ksuowls.com/calendar?date=5/03/2025&vtype=list"
+    url = "https://ksuowls.com/calendar?date=5/01/2025&vtype=list"
     driver.get(url)
     time.sleep(5)
     html = driver.page_source
