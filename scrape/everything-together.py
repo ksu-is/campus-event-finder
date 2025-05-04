@@ -95,14 +95,15 @@ all_data = scrape_ksu_athletics() + scrape_owl_life() + scrape_ksu_calendar()
 # Close driver after scraping
 driver.quit()
 
-# Optional: Print results
 for event in all_data:
     print(event)
 
-# Optional: Export to CSV
+#Export to CSV
 csv_headers = sorted({key for event in all_data for key in event})
 with open("ksu_combined_events.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=csv_headers)
     writer.writeheader()
     writer.writerows(all_data)
 
+with open("ksu_combined_events.json", "w", encoding="utf-8") as f:
+    json.dump(all_data, f, indent=2)
