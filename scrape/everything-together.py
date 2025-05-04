@@ -11,33 +11,6 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')  # Run in background
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-
-def scrape_ksu_athletics():
-    url = "https://ksuowls.com/calendar?date=5/01/2025&vtype=list"
-    driver.get(url)
-    time.sleep(5)
-    html = driver.page_source
-    soup = BeautifulSoup(html, "html.parser")
-
-    span_tags = soup.find_all("span", attrs={"data-bind": "text: sport.title"})
-    h4s = soup.find_all("h4", attrs={"data-bind": "formatDate: date, format: 'dddd, MMMM Do, YYYY'"})
-    times = soup.find_all("span", attrs={"data-bind": "text: time"})
-    locations = soup.find_all("span", attrs={"data-bind": "text: location"})
-    at_vs = soup.find_all("span", attrs={"data-bind": "text: at_vs"})
-    opponents = soup.find_all("span", attrs={"data-bind": "text: opponent.title"})
-
-    data = []
-    for i, span in enumerate(span_tags):
-        data.append({
-            "Source": "KSU Athletics",
-            "Event": span.get_text(strip=True),
-            "Date": h4s[i].get_text(strip=True) if i < len(h4s) else "N/A",
-            "Location": locations[i].get_text(strip=True) if i < len(locations) else "N/A",
-            "Opponent": opponents[i].get_text(strip=True) if i < len(opponents) else "N/A"
-        })
-    return data
-
-
 def scrape_owl_life():
     url = "https://owllife.kennesaw.edu/events"
     driver.get(url)
@@ -64,6 +37,31 @@ def scrape_owl_life():
             "Event": h3s[i].get_text(strip=True) if i < len(h3s) else "N/A",
             "Date": div.get_text(strip=True),
             "Location": location
+        })
+    return data
+
+def scrape_ksu_athletics():
+    url = "https://ksuowls.com/calendar?date=5/01/2025&vtype=list"
+    driver.get(url)
+    time.sleep(5)
+    html = driver.page_source
+    soup = BeautifulSoup(html, "html.parser")
+
+    span_tags = soup.find_all("span", attrs={"data-bind": "text: sport.title"})
+    h4s = soup.find_all("h4", attrs={"data-bind": "formatDate: date, format: 'dddd, MMMM Do, YYYY'"})
+    times = soup.find_all("span", attrs={"data-bind": "text: time"})
+    locations = soup.find_all("span", attrs={"data-bind": "text: location"})
+    at_vs = soup.find_all("span", attrs={"data-bind": "text: at_vs"})
+    opponents = soup.find_all("span", attrs={"data-bind": "text: opponent.title"})
+
+    data = []
+    for i, span in enumerate(span_tags):
+        data.append({
+            "Source": "KSU Athletics",
+            "Event": span.get_text(strip=True),
+            "Date": h4s[i].get_text(strip=True) if i < len(h4s) else "N/A",
+            "Location": locations[i].get_text(strip=True) if i < len(locations) else "N/A",
+            "Opponent": opponents[i].get_text(strip=True) if i < len(opponents) else "N/A"
         })
     return data
 
