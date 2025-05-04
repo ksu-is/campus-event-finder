@@ -2,142 +2,128 @@
   {
     "Source": "KSU Athletics",
     "Event": "Women's Track and Field",
-    "Date": "Thursday, April 24th, 2025",
-    "Location": "Philadelphia, PA",
-    "Opponent": "Penn Relays"
+    "Date": "Saturday, May 3rd, 2025",
+    "Location": "Knoxville, TN",
+    "Opponent": "Big Orange Invite"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Women's Track and Field",
-    "Date": "Friday, April 25th, 2025",
-    "Location": "Philadelphia, PA",
-    "Opponent": "Penn Relays"
+    "Date": "Sunday, May 4th, 2025",
+    "Location": "Knoxville, TN",
+    "Opponent": "Big Orange Invite"
   },
   {
     "Source": "KSU Athletics",
-    "Event": "Men's Golf",
-    "Date": "Saturday, April 26th, 2025",
-    "Location": "Texarkana, AR",
-    "Opponent": "Sam Houston"
+    "Event": "Women's Track and Field",
+    "Date": "Tuesday, May 6th, 2025",
+    "Location": "Knoxville, TN",
+    "Opponent": "East Coast Relays"
   },
   {
     "Source": "KSU Athletics",
-    "Event": "Men's Golf",
-    "Date": "Sunday, April 27th, 2025",
-    "Location": "Texarkana, AR",
-    "Opponent": "Sam Houston"
+    "Event": "Women's Track and Field",
+    "Date": "Wednesday, May 7th, 2025",
+    "Location": "Jacksonville, FL",
+    "Opponent": "East Coast Relays"
   },
   {
     "Source": "KSU Athletics",
-    "Event": "Women's Lacrosse",
-    "Date": "Tuesday, April 29th, 2025",
+    "Event": "Softball",
+    "Date": "Friday, May 9th, 2025",
+    "Location": "Jacksonville, FL",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Softball",
+    "Date": "N/A",
+    "Location": "Jacksonville, FL",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Baseball",
+    "Date": "N/A",
     "Location": "Kennesaw, Ga.",
-    "Opponent": "Coastal Carolina"
+    "Opponent": "New Mexico State"
   },
   {
     "Source": "KSU Athletics",
-    "Event": "Women's Lacrosse",
+    "Event": "Baseball",
     "Date": "N/A",
     "Location": "Kennesaw, Ga.",
-    "Opponent": "Coastal Carolina"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
-    "Location": "Lynchburg, VA",
-    "Opponent": "Liberty"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
-    "Location": "Lynchburg, VA",
-    "Opponent": "Liberty"
+    "Opponent": "New Mexico State"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Softball",
     "Date": "N/A",
-    "Location": "El Paso, Texas",
-    "Opponent": "UTEP"
+    "Location": "Marietta, Ga.",
+    "Opponent": "New Mexico State"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Softball",
     "Date": "N/A",
-    "Location": "El Paso, Texas",
-    "Opponent": "UTEP"
+    "Location": "Marietta, Ga.",
+    "Opponent": "New Mexico State"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Baseball",
     "Date": "N/A",
-    "Location": "Lynchburg, VA",
-    "Opponent": "Liberty"
+    "Location": "Marietta, Ga.",
+    "Opponent": "New Mexico State"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Baseball",
     "Date": "N/A",
-    "Location": "Lynchburg, VA",
-    "Opponent": "Liberty"
+    "Location": "Kennesaw, Ga.",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Baseball",
+    "Date": "N/A",
+    "Location": "Kennesaw, Ga.",
+    "Opponent": "West Georgia"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Baseball",
+    "Date": "N/A",
+    "Location": "Kennesaw, Ga.",
+    "Opponent": "West Georgia"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Softball",
     "Date": "N/A",
-    "Location": "El Paso, Texas",
-    "Opponent": "UTEP"
+    "Location": "Marietta, Ga.",
+    "Opponent": "TBD"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Softball",
     "Date": "N/A",
-    "Location": "El Paso, Texas",
-    "Opponent": "UTEP"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Softball",
-    "Date": "N/A",
-    "Location": "El Paso, Texas",
-    "Opponent": "UTEP"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Softball",
-    "Date": "N/A",
-    "Location": "El Paso, Texas",
-    "Opponent": "UTEP"
+    "Location": "Marietta, Ga.",
+    "Opponent": "TBD"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Baseball",
     "Date": "N/A",
-    "Location": "Lynchburg, VA",
-    "Opponent": "Liberty"
+    "Location": "Marietta, Ga.",
+    "Opponent": "Dallas Baptist"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Baseball",
     "Date": "N/A",
-    "Location": "Lynchburg, VA",
-    "Opponent": "Liberty"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
-    "Location": "Athens, Ga.",
-    "Opponent": "Georgia"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
-    "Location": "Athens, Ga.",
-    "Opponent": "Georgia"
+    "Location": "Carrollton, Ga.",
+    "Opponent": "Dallas Baptist"
   },
   {
     "Source": "Owl Life",
