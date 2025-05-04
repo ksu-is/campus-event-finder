@@ -2,15 +2,22 @@
   {
     "Source": "KSU Athletics",
     "Event": "Women's Track and Field",
+    "Date": "Friday, May 2nd, 2025",
+    "Location": "Jacksonville, FL",
+    "Opponent": "East Coast Relays"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Women's Track and Field",
     "Date": "Saturday, May 3rd, 2025",
-    "Location": "Knoxville, TN",
-    "Opponent": "Big Orange Invite"
+    "Location": "Jacksonville, FL",
+    "Opponent": "East Coast Relays"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Women's Track and Field",
     "Date": "Sunday, May 4th, 2025",
-    "Location": "Knoxville, TN",
+    "Location": "Jacksonville, FL",
     "Opponent": "Big Orange Invite"
   },
   {
@@ -18,20 +25,55 @@
     "Event": "Women's Track and Field",
     "Date": "Tuesday, May 6th, 2025",
     "Location": "Knoxville, TN",
+    "Opponent": "Big Orange Invite"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Softball",
+    "Date": "Wednesday, May 7th, 2025",
+    "Location": "Knoxville, TN",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Softball",
+    "Date": "N/A",
+    "Location": "Knoxville, TN",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Women's Track and Field",
+    "Date": "N/A",
+    "Location": "Kennesaw, Ga.",
+    "Opponent": "Big Orange Invite"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Women's Track and Field",
+    "Date": "N/A",
+    "Location": "Kennesaw, Ga.",
+    "Opponent": "Big Orange Invite"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Women's Track and Field",
+    "Date": "N/A",
+    "Location": "Knoxville, TN",
     "Opponent": "East Coast Relays"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Women's Track and Field",
-    "Date": "Wednesday, May 7th, 2025",
-    "Location": "Jacksonville, FL",
+    "Date": "N/A",
+    "Location": "Knoxville, TN",
     "Opponent": "East Coast Relays"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Softball",
-    "Date": "Friday, May 9th, 2025",
-    "Location": "Jacksonville, FL",
+    "Date": "N/A",
+    "Location": "Knoxville, TN",
     "Opponent": "New Mexico State"
   },
   {
@@ -45,12 +87,19 @@
     "Source": "KSU Athletics",
     "Event": "Baseball",
     "Date": "N/A",
-    "Location": "Kennesaw, Ga.",
+    "Location": "Jacksonville, FL",
     "Opponent": "New Mexico State"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Baseball",
+    "Date": "N/A",
+    "Location": "Jacksonville, FL",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Softball",
     "Date": "N/A",
     "Location": "Kennesaw, Ga.",
     "Opponent": "New Mexico State"
@@ -59,27 +108,6 @@
     "Source": "KSU Athletics",
     "Event": "Softball",
     "Date": "N/A",
-    "Location": "Marietta, Ga.",
-    "Opponent": "New Mexico State"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Softball",
-    "Date": "N/A",
-    "Location": "Marietta, Ga.",
-    "Opponent": "New Mexico State"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
-    "Location": "Marietta, Ga.",
-    "Opponent": "New Mexico State"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
     "Location": "Kennesaw, Ga.",
     "Opponent": "New Mexico State"
   },
@@ -87,7 +115,21 @@
     "Source": "KSU Athletics",
     "Event": "Baseball",
     "Date": "N/A",
-    "Location": "Kennesaw, Ga.",
+    "Location": "Marietta, Ga.",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Baseball",
+    "Date": "N/A",
+    "Location": "Marietta, Ga.",
+    "Opponent": "New Mexico State"
+  },
+  {
+    "Source": "KSU Athletics",
+    "Event": "Baseball",
+    "Date": "N/A",
+    "Location": "Marietta, Ga.",
     "Opponent": "West Georgia"
   },
   {
@@ -101,29 +143,15 @@
     "Source": "KSU Athletics",
     "Event": "Softball",
     "Date": "N/A",
-    "Location": "Marietta, Ga.",
+    "Location": "Kennesaw, Ga.",
     "Opponent": "TBD"
   },
   {
     "Source": "KSU Athletics",
     "Event": "Softball",
     "Date": "N/A",
-    "Location": "Marietta, Ga.",
+    "Location": "Kennesaw, Ga.",
     "Opponent": "TBD"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
-    "Location": "Marietta, Ga.",
-    "Opponent": "Dallas Baptist"
-  },
-  {
-    "Source": "KSU Athletics",
-    "Event": "Baseball",
-    "Date": "N/A",
-    "Location": "Carrollton, Ga.",
-    "Opponent": "Dallas Baptist"
   },
   {
     "Source": "Owl Life",
